@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+} /*generally align to center */
+header {
+    background-color: honeydew;
+}
+a {
+    margin: 30px;
+    padding: 5px;
+    font-size: 30px;
+    line-height: 45px;
+    text-decoration: none;
+} /*Styling links with spacing and simplicity in mind */
+nav {
+    background-color: goldenrod
+}
+h1, h2, h3 {
+    font-family: Courier;
+    font-style: bold;
+    color: chocolate;
+} /*normalizing headers and defining sizes independently*/
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 30px;
+}
+main {
+    width: 50%;
+    margin-left: 25%;
+    margin-top:0;
+}
+ul,ol, li, p {
+    text-align:left;
+    font-size: 25px;
+    color: #404040;
+} /*normalizing paragraph and list text*/
+footer {
+    background-color: #404040;
+    color: white;
+    text-align:center;
+    line-height:50px;
+    height: 50px;
+    font-size: 25px;
+}
+a:link{
+    color:honeydew
+}
+a:visited {
+    color: #99ff99
+}
+a:active {
+    color: lightcoral
+}
+a:hover {
+    color: lightpink
+}
