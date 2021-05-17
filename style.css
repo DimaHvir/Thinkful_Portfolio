@@ -48,14 +48,14 @@ footer {
     font-size: 25px;
 }
 a:link{
-    color:honeydew
+    color:black
 }
 a:visited {
-    color: #99ff99
+    color: blue
 }
 a:active {
-    color: lightcoral
+    color: red
 }
 a:hover {
-    color: lightpink
+    color: green
 }
